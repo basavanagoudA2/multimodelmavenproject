@@ -24,6 +24,6 @@ hs_err_pid*
 */.metadata/
 */.settings/
 */target/
-/.project
-.classpath
+.project/
+.classpath/
 
