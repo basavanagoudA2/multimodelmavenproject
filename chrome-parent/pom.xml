@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>org.chrome.com</groupId>
-  <artifactId>chrome-parent</artifactId>
-  <packaging>pom</packaging>
-  <version>1.8</version>
-  <name>chrome-parent</name>
-  <url>http://maven.apache.org</url>
-  <dependencies>
-    
-  </dependencies>
-<modules>  <module>chrome-service</module>
-    <module>chrome-web</module>
-    <module>chrome-csr</module>
-  </modules>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.chrome.com</groupId>
+	<artifactId>chrome-parent</artifactId>
+	<packaging>pom</packaging>
+	<version>1.8</version>
+	<name>chrome-parent</name>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>5.3.9</version>
+		</dependency>
+
+	</dependencies>
+	<modules>
+		<module>chrome-service</module>
+		<module>chrome-web</module>
+		<module>chrome-csr</module>
+	</modules>
 </project>
